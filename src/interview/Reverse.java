@@ -7,7 +7,10 @@ public class Reverse {
 	 * backwards the original input. So "ab" becomes "ba".
 	 */
 	public String reverse(String input) {
-		return "reverse";
+		// return "reverse";
+
+		StringBuilder sb = new StringBuilder(input);
+		return sb.reverse().toString();
 	}
 
 
